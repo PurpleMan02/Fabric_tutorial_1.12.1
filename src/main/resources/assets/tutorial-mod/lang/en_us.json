@@ -3,5 +3,8 @@
   "item.tutorial-mod.seven": "Seven",
 
   "block.tutorial-mod.six_square": "Six Squared",
-  "block.tutorial-mod.seven_square": "Seven Squared"
+  "block.tutorial-mod.seven_square": "Seven Squared",
+
+  "itemGroup.tutorial-mod.numbers": "Numbers",
+  "itemGroup.tutorial-mod.block_numbers": "Squared Numbers"
 }
