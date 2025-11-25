@@ -33,6 +33,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.sixSquare);
                         entries.add(ModBlocks.sevenSquare);
+                        entries.add(ModBlocks.numberOre);
                     })
                     .build());
 
