@@ -21,6 +21,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.Six);
                         entries.add(ModItems.Seven);
+                        entries.add(ModItems.Chisel);
                     })
                     .build());
 
