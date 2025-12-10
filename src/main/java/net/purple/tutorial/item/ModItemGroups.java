@@ -22,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.Six);
                         entries.add(ModItems.Seven);
                         entries.add(ModItems.Chisel);
+                        entries.add(ModItems.Cauliflower);
+                        entries.add(ModItems.Starlight_Ashes);
                     })
                     .build());
 
@@ -29,12 +31,13 @@ public class ModItemGroups {
     public static final ItemGroup BLOCK_NUMBERS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TutorialMod.MOD_ID, "block_numbers"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(ModBlocks.sevenSquare))
+                    .icon(() -> new ItemStack(ModBlocks.SevenSquare))
                     .displayName(Text.translatable("itemGroup.tutorial-mod.block_numbers"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.sixSquare);
-                        entries.add(ModBlocks.sevenSquare);
-                        entries.add(ModBlocks.numberOre);
+                        entries.add(ModBlocks.SixSquare);
+                        entries.add(ModBlocks.SevenSquare);
+                        entries.add(ModBlocks.NumberOre);
+                        entries.add(ModBlocks.MagicBlock);
                     })
                     .build());
 

@@ -2,6 +2,7 @@ package net.purple.tutorial;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.purple.tutorial.block.ModBlocks;
 import net.purple.tutorial.item.ModItemGroups;
 import net.purple.tutorial.item.ModItems;
@@ -17,5 +18,8 @@ public class TutorialMod implements ModInitializer {
         ModItems.RegisterModItems();
         ModBlocks.registerModBlocks();
         ModItemGroups.registerItemGroups();
+
+
+        FuelRegistry.INSTANCE.add(ModItems.Starlight_Ashes, 600);
 	}
 }

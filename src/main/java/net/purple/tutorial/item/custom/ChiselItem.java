@@ -6,11 +6,9 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
@@ -37,7 +35,7 @@ public class ChiselItem extends Item {
                     Blocks.STONE, Blocks.STONE_BRICKS,
                     Blocks.END_STONE, Blocks.END_STONE_BRICKS,
                     Blocks.PURPUR_BLOCK, Blocks.PURPUR_PILLAR,
-                    ModBlocks.sixSquare, ModBlocks.sevenSquare,
+                    ModBlocks.SixSquare, ModBlocks.SevenSquare,
                     Blocks.ICE, Blocks.TNT
             );
 

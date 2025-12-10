@@ -2,10 +2,13 @@
   "item.tutorial-mod.six": "Six",
   "item.tutorial-mod.seven": "Seven",
   "item.tutorial-mod.chisel": "Chisel",
+  "item.tutorial-mod.cauliflower": "Cauliflower",
+  "item.tutorial-mod.starlight_ashes": "Starlight Ashes",
 
   "block.tutorial-mod.six_square": "Six Squared",
   "block.tutorial-mod.seven_square": "Seven Squared",
   "block.tutorial-mod.number_ore": "Numbers Ore",
+  "block.tutorial-mod.magic_block": "Magic Block",
 
   "itemGroup.tutorial-mod.numbers": "Numbers",
   "itemGroup.tutorial-mod.block_numbers": "Squared Numbers"

@@ -17,10 +17,14 @@ public class ModItems {
 
     public static final Item Chisel = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
+    public static final Item Cauliflower = registerItem("cauliflower", new Item(new Item.Settings()
+            .food(ModFoodComponent.CAULIFLOWER)));
+
+    public static final Item Starlight_Ashes = registerItem("starlight_ashes", new Item(new Item.Settings()));
+
     public static Item registerItem (String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
     }
-
 
     public static void RegisterModItems () {
         TutorialMod.LOGGER.info("Registering mod items for " + TutorialMod.MOD_ID);
