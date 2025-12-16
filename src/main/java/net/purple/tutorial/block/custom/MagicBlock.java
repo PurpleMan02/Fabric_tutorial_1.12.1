@@ -17,6 +17,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.purple.tutorial.TutorialMod;
 import net.purple.tutorial.item.ModItems;
+import net.purple.tutorial.util.ModTags;
+import org.apache.commons.logging.Log;
 
 //ctrl + h on "Block" to see the code of all Vanilla blocks
 public class MagicBlock extends Block {
@@ -51,11 +53,16 @@ public class MagicBlock extends Block {
 
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
+
         if (entity instanceof ItemEntity item) {
-            if (item.getStack().getItem() == ModItems.Six)  {
+            if (isValidItem(item.getStack()))  {
                 item.setStack(new ItemStack(ModItems.Seven, item.getStack().getCount()));
             }
         }
         super.onSteppedOn(world, pos, state, entity);
+    }
+
+    private boolean isValidItem(ItemStack stack) {
+        return stack.isIn(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 }

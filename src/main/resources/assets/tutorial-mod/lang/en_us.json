@@ -11,5 +11,8 @@
   "block.tutorial-mod.magic_block": "Magic Block",
 
   "itemGroup.tutorial-mod.numbers": "Numbers",
-  "itemGroup.tutorial-mod.block_numbers": "Squared Numbers"
+  "itemGroup.tutorial-mod.block_numbers": "Squared Numbers",
+
+  "tooltip.tutorial-mod.chisel.tooltip_shift_down": "Works on Stone, End Stone, Purpur block, Six Square",
+  "tooltip.tutorial-mod.chisel.tooltip": "§oPress shift for more information§o"
 }
