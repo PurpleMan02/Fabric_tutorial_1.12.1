@@ -8,10 +8,21 @@
   "block.tutorial-mod.six_square": "Six Squared",
   "block.tutorial-mod.seven_square": "Seven Squared",
   "block.tutorial-mod.number_ore": "Numbers Ore",
+
   "block.tutorial-mod.magic_block": "Magic Block",
+  "block.tutorial-mod.magic_block_stairs": "Magic Stairs",
+  "block.tutorial-mod.magic_block_slab": "Magic Slab",
+  "block.tutorial-mod.magic_block_button": "Magic Button",
+  "block.tutorial-mod.magic_block_pressure_plate": "Magic Pressure Plate",
+  "block.tutorial-mod.magic_block_fence": "Magic Fence",
+  "block.tutorial-mod.magic_block_gate": "Magic Gate",
+  "block.tutorial-mod.magic_block_wall": "Magic Wall",
+  "block.tutorial-mod.magic_block_door": "Magic Door",
+  "block.tutorial-mod.magic_block_trap_door": "Magic Trap Door",
 
   "itemGroup.tutorial-mod.numbers": "Numbers",
   "itemGroup.tutorial-mod.block_numbers": "Squared Numbers",
+  "itemGroup.tutorial-mod.magic_blocks": "Magic Blocks",
 
   "tooltip.tutorial-mod.chisel.tooltip_shift_down": "Works on Stone, End Stone, Purpur block, Six Square",
   "tooltip.tutorial-mod.chisel.tooltip": "§oPress shift for more information§o"

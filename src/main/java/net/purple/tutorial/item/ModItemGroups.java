@@ -37,7 +37,26 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SixSquare);
                         entries.add(ModBlocks.SevenSquare);
                         entries.add(ModBlocks.NumberOre);
+                    })
+                    .build());
+
+    public static final ItemGroup MAGIC_BLOCKS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TutorialMod.MOD_ID, "magic_blocks"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(ModBlocks.MagicBlock))
+                    .displayName(Text.translatable("itemGroup.tutorial-mod.magic_blocks"))
+                    .entries((displayContext, entries) -> {
+
                         entries.add(ModBlocks.MagicBlock);
+                        entries.add(ModBlocks.MAGIC_BLOCK_DOOR);
+                        entries.add(ModBlocks.MAGIC_BLOCK_BUTTON);
+                        entries.add(ModBlocks.MAGIC_BLOCK_GATE);
+                        entries.add(ModBlocks.MAGIC_BLOCK_SLAB);
+                        entries.add(ModBlocks.MAGIC_BLOCK_FENCE);
+                        entries.add(ModBlocks.MAGIC_BLOCK_WALL);
+                        entries.add(ModBlocks.MAGIC_BLOCK_STAIRS);
+                        entries.add(ModBlocks.MAGIC_BLOCK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MAGIC_BLOCK_TRAP_DOOR);
                     })
                     .build());
 

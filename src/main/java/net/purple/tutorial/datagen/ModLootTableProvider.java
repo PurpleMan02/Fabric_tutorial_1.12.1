@@ -29,9 +29,21 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         RegistryWrapper.Impl<Enchantment> enchantmentRegistry = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
 
-        addDrop(ModBlocks.MagicBlock);
         addDrop(ModBlocks.SixSquare);
         addDrop(ModBlocks.SevenSquare);
+
+        addDrop(ModBlocks.MagicBlock);
+        addDrop(ModBlocks.MAGIC_BLOCK_GATE);
+        addDrop(ModBlocks.MAGIC_BLOCK_BUTTON);
+        addDrop(ModBlocks.MAGIC_BLOCK_STAIRS);
+        addDrop(ModBlocks.MAGIC_BLOCK_PRESSURE_PLATE);
+        addDrop(ModBlocks.MAGIC_BLOCK_TRAP_DOOR);
+        addDrop(ModBlocks.MAGIC_BLOCK_FENCE);
+        addDrop(ModBlocks.MAGIC_BLOCK_WALL);
+
+        addDrop(ModBlocks.MAGIC_BLOCK_DOOR, doorDrops(ModBlocks.MAGIC_BLOCK_DOOR));
+        addDrop(ModBlocks.MAGIC_BLOCK_SLAB, slabDrops(ModBlocks.MAGIC_BLOCK_SLAB));
+
 
         addDrop(ModBlocks.NumberOre, block -> LootTable.builder()
                 .pool(LootPool.builder()
