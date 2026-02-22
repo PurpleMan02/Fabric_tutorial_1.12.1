@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.purple.tutorial.TutorialMod;
 import net.purple.tutorial.block.custom.MagicBlock;
+import net.purple.tutorial.block.custom.PinkGarnetLampBlock;
 
 public class ModBlocks {
 
@@ -31,6 +32,10 @@ public class ModBlocks {
     public static final Block MagicBlock = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(3f, 1f)
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block PINK_GARNET_LAMP = registerBlock("pink_garnet_lamp",
+            new PinkGarnetLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
 
     public static final Block MAGIC_BLOCK_STAIRS = registerBlock("magic_block_stairs",
             new StairsBlock(ModBlocks.MagicBlock.getDefaultState(),

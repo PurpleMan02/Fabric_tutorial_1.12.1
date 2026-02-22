@@ -57,6 +57,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAGIC_BLOCK_STAIRS);
                         entries.add(ModBlocks.MAGIC_BLOCK_PRESSURE_PLATE);
                         entries.add(ModBlocks.MAGIC_BLOCK_TRAP_DOOR);
+                        entries.add(ModBlocks.PINK_GARNET_LAMP);
                     })
                     .build());
 

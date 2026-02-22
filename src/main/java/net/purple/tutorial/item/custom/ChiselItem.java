@@ -16,6 +16,7 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
+import net.purple.tutorial.Component.ModDataComponents;
 import net.purple.tutorial.block.ModBlocks;
 
 import java.util.List;
@@ -57,6 +58,9 @@ public class ChiselItem extends Item {
             tooltip.add(Text.translatable("tooltip.tutorial-mod.chisel.tooltip"));
         }
 
+        if (stack.get(ModDataComponents.COORDINATES) != null) {
+             tooltip.add(Text.literal("Last block changed at: " + stack.get(ModDataComponents.COORDINATES)));
+        }
 
 
         super.appendTooltip(stack, context, tooltip, type);
@@ -89,6 +93,8 @@ public class ChiselItem extends Item {
                 }
             }
         }
+
+        context.getStack().set(ModDataComponents.COORDINATES, context.getBlockPos());
 
         return ActionResult.SUCCESS;
     }
