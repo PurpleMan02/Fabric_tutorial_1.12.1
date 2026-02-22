@@ -42,8 +42,16 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.Six, Models.GENERATED);
         itemModelGenerator.register(ModItems.Seven, Models.GENERATED);
+        itemModelGenerator.register(ModItems.Numberium, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.Cauliflower, Models.GENERATED);
         itemModelGenerator.register(ModItems.Starlight_Ashes, Models.GENERATED);
         itemModelGenerator.register(ModItems.Chisel, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.Numberium_Sword, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.Numberium_Axe, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.Numberium_Hoe, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.Numberium_Shovel, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.Numberium_Pickaxe, Models.HANDHELD);
     }
 }

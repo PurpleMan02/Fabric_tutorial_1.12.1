@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial-mod:block/magic_block_slab"
+    },
+    "type=double": {
+      "model": "tutorial-mod:block/magic_block"
+    },
+    "type=top": {
+      "model": "tutorial-mod:block/magic_block_slab_top"
+    }
+  }
+}

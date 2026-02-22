@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.purple.tutorial.block.ModBlocks;
+import net.purple.tutorial.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -31,7 +32,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.FENCE_GATES).add(ModBlocks.MAGIC_BLOCK_GATE);
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.MAGIC_BLOCK_WALL);
 
-
-
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_NUMBERIUM_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
     }
 }

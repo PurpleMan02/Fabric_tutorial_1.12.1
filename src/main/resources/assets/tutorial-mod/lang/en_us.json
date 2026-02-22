@@ -1,9 +1,17 @@
 {
   "item.tutorial-mod.six": "Six",
   "item.tutorial-mod.seven": "Seven",
+  "item.tutorial-mod.numberium": "Numberium",
+
   "item.tutorial-mod.chisel": "Chisel",
   "item.tutorial-mod.cauliflower": "Cauliflower",
   "item.tutorial-mod.starlight_ashes": "Starlight Ashes",
+
+  "item.tutorial-mod.numberium_sword": "Numberium Sword",
+  "item.tutorial-mod.numberium_pickaxe": "Numberium Pickaxe",
+  "item.tutorial-mod.numberium_axe": "Numberium Axe",
+  "item.tutorial-mod.numberium_shovel": "Numberium Shovel",
+  "item.tutorial-mod.numberium_hoe": "Numberium Hoe",
 
   "block.tutorial-mod.six_square": "Six Squared",
   "block.tutorial-mod.seven_square": "Seven Squared",

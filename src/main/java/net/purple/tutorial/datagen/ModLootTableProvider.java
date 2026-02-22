@@ -49,11 +49,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 .pool(LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .with(applyExplosionDecay(block,
-                                ItemEntry.builder(ModItems.Six)
-                                        .apply(ApplyBonusLootFunction.oreDrops(enchantmentRegistry.getOrThrow(Enchantments.FORTUNE)))
-                        ))
-                        .with(applyExplosionDecay(block,
-                                ItemEntry.builder(ModItems.Seven)
+                                ItemEntry.builder(ModItems.Numberium)
                                         .apply(ApplyBonusLootFunction.oreDrops(enchantmentRegistry.getOrThrow(Enchantments.FORTUNE)))
                         ))));
     }

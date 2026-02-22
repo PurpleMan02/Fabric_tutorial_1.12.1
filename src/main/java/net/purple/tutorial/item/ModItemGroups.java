@@ -21,6 +21,14 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.Six);
                         entries.add(ModItems.Seven);
+                        entries.add(ModItems.Numberium);
+
+                        entries.add(ModItems.Numberium_Sword);
+                        entries.add(ModItems.Numberium_Axe);
+                        entries.add(ModItems.Numberium_Hoe);
+                        entries.add(ModItems.Numberium_Pickaxe);
+                        entries.add(ModItems.Numberium_Shovel);
+
                         entries.add(ModItems.Chisel);
                         entries.add(ModItems.Cauliflower);
                         entries.add(ModItems.Starlight_Ashes);

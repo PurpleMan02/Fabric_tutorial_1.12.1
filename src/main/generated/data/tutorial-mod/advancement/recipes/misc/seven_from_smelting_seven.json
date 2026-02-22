@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_seven": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial-mod:seven"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorial-mod:seven_from_smelting_seven"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_seven"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorial-mod:seven_from_smelting_seven"
+    ]
+  }
+}

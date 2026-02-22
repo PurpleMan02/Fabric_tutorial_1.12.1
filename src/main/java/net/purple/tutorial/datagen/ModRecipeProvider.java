@@ -45,9 +45,51 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
                 .offerTo(exporter);
         //in case of two different recipes using the same item, add the ", Identifier.of(TutorialMod.MOD_ID, "name" "
-        //to create two differently named recipes for the data generation
+        //to the (exporter) line to create two differently named recipes for the data generation
 
         offerShapelessRecipe(exporter, ModItems.Six, ModBlocks.SixSquare, "misc", 9);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Sword)
+                .pattern(" N ")
+                .pattern(" N ")
+                .pattern(" S ")
+                .input('N', ModItems.Numberium)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Pickaxe)
+                .pattern("NNN")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('N', ModItems.Numberium)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Axe)
+                .pattern("NN ")
+                .pattern("NS ")
+                .pattern(" S ")
+                .input('N', ModItems.Numberium)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Shovel)
+                .pattern(" N ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('N', ModItems.Numberium)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Hoe)
+                .pattern(" NN")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('N', ModItems.Numberium)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
+                .offerTo(exporter);
+
 
 
     }

@@ -1,0 +1,14 @@
+// 1.21.1	2026-02-22T21:04:54.760718	Tutorial Mod/Block Loot Tables
+412b06c5b422bca01b8f0df3b8db60af8a746e36 data\tutorial-mod\loot_table\blocks\magic_block_wall.json
+d39adb8f1e164fca4101de1064c825cd739662d7 data\tutorial-mod\loot_table\blocks\magic_block_trap_door.json
+442a17a36f91e67e1e1a544d1fc916af24d0078a data\tutorial-mod\loot_table\blocks\six_square.json
+31bc46ac74760eb1d8d2324d2d6becca92b81a71 data\tutorial-mod\loot_table\blocks\magic_block_fence.json
+934db57b19229df6d8863d7493757a8b7b6bf5d1 data\tutorial-mod\loot_table\blocks\magic_block.json
+84cfe38dcdaad9a22b525dff676732fbb8a22bc9 data\tutorial-mod\loot_table\blocks\seven_square.json
+b52d3cc38b41107bc09148d9bba80f44a58a9fe9 data\tutorial-mod\loot_table\blocks\magic_block_button.json
+8a919fc0b3615b0f66eb667673863beac1cd5070 data\tutorial-mod\loot_table\blocks\magic_block_door.json
+2708b3c2114c3869f896ace71c98195d0a454d93 data\tutorial-mod\loot_table\blocks\magic_block_pressure_plate.json
+e3c761485ad4d4421302ded56b22ea748c0ac624 data\tutorial-mod\loot_table\blocks\magic_block_stairs.json
+a3d6f610ebb4c9468c62e1ba7b6ab962e003d2e9 data\tutorial-mod\loot_table\blocks\magic_block_slab.json
+3471c821bfe98dbcfc329068b2b0b19923c5ccb6 data\tutorial-mod\loot_table\blocks\magic_block_gate.json
+1ab16d27ae3be56ce296379fb4100c569eca655f data\tutorial-mod\loot_table\blocks\number_ore.json

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 100.0,
+  "group": "seven",
+  "ingredient": {
+    "item": "tutorial-mod:six"
+  },
+  "result": {
+    "id": "tutorial-mod:seven"
+  }
+}

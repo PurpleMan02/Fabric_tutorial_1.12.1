@@ -1,0 +1,7 @@
+// 1.21.1	2026-02-22T21:04:54.7657234	Tutorial Mod/Tags for minecraft:block
+8544f5044b5b35586f5025a30cbc84db752c62ec data\minecraft\tags\block\walls.json
+32b13946c4cd1f944b029659ccce5fcb2adad4ff data\tutorial-mod\tags\block\needs_numberium_tool.json
+4c3eba3cb499b9d982769858ff8063f18452d44a data\minecraft\tags\block\fence_gates.json
+65c081f9875664f5663e7bdf6402e4daeb62fcb2 data\minecraft\tags\block\fences.json
+d47bc48a41415f5e16a5352d57d960dc928b6760 data\minecraft\tags\block\mineable\pickaxe.json
+d47bc48a41415f5e16a5352d57d960dc928b6760 data\minecraft\tags\block\needs_iron_tool.json
