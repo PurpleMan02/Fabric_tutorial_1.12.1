@@ -53,5 +53,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.Numberium_Hoe, Models.HANDHELD);
         itemModelGenerator.register(ModItems.Numberium_Shovel, Models.HANDHELD);
         itemModelGenerator.register(ModItems.Numberium_Pickaxe, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.Numberium_Hammer, Models.HANDHELD);
     }
 }

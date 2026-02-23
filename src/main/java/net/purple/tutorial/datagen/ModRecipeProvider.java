@@ -57,6 +57,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
                 .offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Pickaxe)
                 .pattern("NNN")
                 .pattern(" S ")
@@ -65,6 +66,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
                 .offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Axe)
                 .pattern("NN ")
                 .pattern("NS ")
@@ -73,6 +75,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
                 .offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Shovel)
                 .pattern(" N ")
                 .pattern(" S ")
@@ -81,9 +84,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
                 .offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Hoe)
                 .pattern(" NN")
                 .pattern(" S ")
+                .pattern(" S ")
+                .input('N', ModItems.Numberium)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Hammer)
+                .pattern("NNN")
+                .pattern("NSN")
                 .pattern(" S ")
                 .input('N', ModItems.Numberium)
                 .input('S', Items.STICK)

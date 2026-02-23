@@ -7,6 +7,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.purple.tutorial.TutorialMod;
 import net.purple.tutorial.item.custom.ChiselItem;
+import net.purple.tutorial.item.custom.HammerItem;
 
 public class ModItems {
 
@@ -36,7 +37,9 @@ public static final Item Numberium_Axe = registerItem("numberium_axe",
 public static final Item Numberium_Hoe = registerItem("numberium_hoe",
             new HoeItem(ModToolsMaterials.NUMBERIUM, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolsMaterials.NUMBERIUM, -3.0F, 0.0F))));
-
+public static final Item Numberium_Hammer = registerItem("numberium_hammer",
+            new HammerItem(ModToolsMaterials.NUMBERIUM, new Item.Settings()
+                    .attributeModifiers(HammerItem.createAttributeModifiers(ModToolsMaterials.NUMBERIUM, 7.0F, -3.4F))));
         public static Item registerItem (String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
     }

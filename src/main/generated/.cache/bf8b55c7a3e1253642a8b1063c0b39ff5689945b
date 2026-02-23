@@ -1,7 +1,7 @@
-// 1.21.1	2026-02-22T21:04:54.7626757	Tutorial Mod/Model Definitions
+// 1.21.1	2026-02-23T17:10:33.1620862	Tutorial Mod/Model Definitions
 cd7bb4be200cd3b3c243a858578d65377fa21897 assets\tutorial-mod\blockstates\magic_block_button.json
-52259f719eb001cf8050ab7edfba732e8f584b39 assets\tutorial-mod\models\item\magic_block_fence.json
 cb70740d94581d8a042d400f9ccd211b485aab6e assets\tutorial-mod\models\item\numberium_axe.json
+52259f719eb001cf8050ab7edfba732e8f584b39 assets\tutorial-mod\models\item\magic_block_fence.json
 c5354e93b5ab11240174ef0151a760e2f4696cfc assets\tutorial-mod\models\item\magic_block_gate.json
 73025bce5dab63de61b4cbee2b85a5f92a474927 assets\tutorial-mod\models\block\magic_block_gate.json
 09df6aabae424da7a0e0afb4a9e5aa55436d2e94 assets\tutorial-mod\models\block\magic_block_gate_open.json
@@ -37,8 +37,8 @@ ea8047365966b55f54ef96f603a10db660bdca0c assets\tutorial-mod\models\block\magic_
 1a006f119ae08f1586e3a78ff96fc6119bfcdd85 assets\tutorial-mod\models\block\six_square.json
 cc93dfeb1adc29c9a6afe76a7a6409ee866a2249 assets\tutorial-mod\models\block\magic_block_trap_door_open.json
 8eb8da8f833439a248ebbd7aa1372190dab2352b assets\tutorial-mod\blockstates\number_ore.json
-9f7077657896cd5cf449d09fd35873715cf32e30 assets\tutorial-mod\models\item\magic_block_slab.json
 37e27ed37ec010b202954cc41b863da35757a7fe assets\tutorial-mod\models\item\numberium_hoe.json
+9f7077657896cd5cf449d09fd35873715cf32e30 assets\tutorial-mod\models\item\magic_block_slab.json
 a8cc722f80acb865910b2b601216ab017273d991 assets\tutorial-mod\models\block\magic_block_pressure_plate_down.json
 909af854a134d7de26ab9a03da50dedec3dbc517 assets\tutorial-mod\models\block\magic_block_wall_inventory.json
 a6eb40ccdd9fa5296bde83240f2d488aabf5290b assets\tutorial-mod\models\item\six_square.json
@@ -46,8 +46,8 @@ e6df15b4c74dd1be396dccbe89d05ecd43da0aec assets\tutorial-mod\models\item\magic_b
 d8303130e4838181d7b399b7e6e3d4dc0a3ea545 assets\tutorial-mod\models\block\magic_block_slab_top.json
 d771080e90ba568fa358c7dc72f074220a7be546 assets\tutorial-mod\blockstates\pink_garnet_lamp.json
 d08cf9187587bcf59de6c5840be9615411681ce4 assets\tutorial-mod\blockstates\six_square.json
-ca661d4d34a26c5be4822d04ab91b3e5433eba59 assets\tutorial-mod\models\block\magic_block_door_top_left.json
 45b9ae55bdbb3dac90ca05683fde52f3dd01203a assets\tutorial-mod\models\item\magic_block_trap_door.json
+ca661d4d34a26c5be4822d04ab91b3e5433eba59 assets\tutorial-mod\models\block\magic_block_door_top_left.json
 8c19275ba7cbf205df09e9453478bbbff72f9363 assets\tutorial-mod\models\block\magic_block_trap_door_bottom.json
 07a42851323f289156bf7956d592c9ae358d1f37 assets\tutorial-mod\models\block\magic_block_gate_wall_open.json
 0fe0095fba33e46bb575040f68b3168c2ea1bfdb assets\tutorial-mod\models\block\magic_block_button_inventory.json
@@ -73,6 +73,7 @@ be6cf4c0774678252aae95ce39fbbf1a8a04ff1c assets\tutorial-mod\models\block\magic_
 327cf58d57a3daec5d71d08bb7ca0cc582fbeea9 assets\tutorial-mod\blockstates\magic_block_slab.json
 a4b67f6066f485a242ecdcab6784a9b8fe233e6a assets\tutorial-mod\blockstates\magic_block_pressure_plate.json
 21e859b94fc2cddf4600ed6660b4f28bbaedbbc5 assets\tutorial-mod\models\block\pink_garnet_lamp_on.json
+53b0427f74e82a7de5ae9c24b847e862cc5128ba assets\tutorial-mod\models\item\numberium_hammer.json
 385169812e04f7b49fc4bccd0c78fe17b90804eb assets\tutorial-mod\blockstates\magic_block_trap_door.json
 3ddf71fce0c4d83bdaf1cbc9d2ff9a57ce32baab assets\tutorial-mod\models\block\magic_block_pressure_plate.json
 6cb33e899fe9b32f6b77245c37f22f794db58fd5 assets\tutorial-mod\models\block\magic_block_fence_side.json

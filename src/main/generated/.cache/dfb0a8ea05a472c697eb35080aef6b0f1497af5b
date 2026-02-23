@@ -1,10 +1,12 @@
-// 1.21.1	2026-02-22T21:04:54.7616757	Tutorial Mod/Recipes
+// 1.21.1	2026-02-23T17:10:33.1620862	Tutorial Mod/Recipes
 300da514086f3121073b9519bd4f3b4bed42fc7b data\tutorial-mod\advancement\recipes\misc\seven_from_smelting_seven.json
+d680d875ca0ee55c8a94e13c96e4fdc29732dc3a data\tutorial-mod\advancement\recipes\misc\numberium_hammer.json
 20dcaaefb83ea886dcc7008851001077555ebf1a data\tutorial-mod\recipe\numberium_sword.json
 c618822349c184bc2c2992cdffa8365174eca8fd data\tutorial-mod\recipe\numberium_pickaxe.json
 919891a765f08b29cff362b1b2e43f901f0e63fd data\tutorial-mod\advancement\recipes\misc\numberium_shovel.json
 1139291b986c78c9ab7dbd416b72ae091aaf2c50 data\tutorial-mod\advancement\recipes\building_blocks\seven.json
 85721977e6d9bdb03902ddafd7eb94917f1ddabd data\tutorial-mod\recipe\numberium_axe.json
+fd16395dce493fa8749d271fcc6f986b13780ffd data\tutorial-mod\recipe\numberium_hammer.json
 314d26a065e18a17d055fa9a3cebe1f30809d4dc data\tutorial-mod\advancement\recipes\misc\seven_from_blasting_six.json
 2bc394c1782b05dcf89d6a90728c5fbba4765f9c data\tutorial-mod\recipe\seven_from_blasting_six.json
 67ecc1bc9c64d5b93085967a7498b8f63f1d23eb data\tutorial-mod\recipe\numberium_shovel.json

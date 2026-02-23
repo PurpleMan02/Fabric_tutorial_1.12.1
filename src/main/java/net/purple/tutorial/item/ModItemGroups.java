@@ -28,6 +28,7 @@ public class ModItemGroups {
                         entries.add(ModItems.Numberium_Hoe);
                         entries.add(ModItems.Numberium_Pickaxe);
                         entries.add(ModItems.Numberium_Shovel);
+                        entries.add(ModItems.Numberium_Hammer);
 
                         entries.add(ModItems.Chisel);
                         entries.add(ModItems.Cauliflower);
