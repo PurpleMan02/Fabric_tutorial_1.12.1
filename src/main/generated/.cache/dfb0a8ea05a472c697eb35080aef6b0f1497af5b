@@ -1,13 +1,17 @@
-// 1.21.1	2026-02-23T17:10:33.1620862	Tutorial Mod/Recipes
+// 1.21.1	2026-03-02T19:49:37.6408323	Tutorial Mod/Recipes
 300da514086f3121073b9519bd4f3b4bed42fc7b data\tutorial-mod\advancement\recipes\misc\seven_from_smelting_seven.json
 d680d875ca0ee55c8a94e13c96e4fdc29732dc3a data\tutorial-mod\advancement\recipes\misc\numberium_hammer.json
+f6426347bb842201682bba2e1e1cea8cc84fb1be data\tutorial-mod\recipe\numberium_chestplate.json
 20dcaaefb83ea886dcc7008851001077555ebf1a data\tutorial-mod\recipe\numberium_sword.json
 c618822349c184bc2c2992cdffa8365174eca8fd data\tutorial-mod\recipe\numberium_pickaxe.json
 919891a765f08b29cff362b1b2e43f901f0e63fd data\tutorial-mod\advancement\recipes\misc\numberium_shovel.json
 1139291b986c78c9ab7dbd416b72ae091aaf2c50 data\tutorial-mod\advancement\recipes\building_blocks\seven.json
 85721977e6d9bdb03902ddafd7eb94917f1ddabd data\tutorial-mod\recipe\numberium_axe.json
 fd16395dce493fa8749d271fcc6f986b13780ffd data\tutorial-mod\recipe\numberium_hammer.json
+5806bf84ef74bbb9fbd802405f45188678d9b2c9 data\tutorial-mod\advancement\recipes\misc\numberium_helmet.json
 314d26a065e18a17d055fa9a3cebe1f30809d4dc data\tutorial-mod\advancement\recipes\misc\seven_from_blasting_six.json
+362c28df3cb14331ca253a59613fe572462a7e2d data\tutorial-mod\advancement\recipes\misc\numberium_leggings.json
+44730a4a48b2de88f0df88d6c79c3307138756f4 data\tutorial-mod\advancement\recipes\misc\numberium_boots.json
 2bc394c1782b05dcf89d6a90728c5fbba4765f9c data\tutorial-mod\recipe\seven_from_blasting_six.json
 67ecc1bc9c64d5b93085967a7498b8f63f1d23eb data\tutorial-mod\recipe\numberium_shovel.json
 85586ae058201dfbe925c08e4426a8ce09811218 data\tutorial-mod\recipe\six_from_six_square.json
@@ -17,8 +21,11 @@ b19bf9511f8ccd4afac867337b84e7cea53f56f3 data\tutorial-mod\advancement\recipes\m
 e4fa3a2ae8cc8b6a6412eb7afdb51491a4e68eb7 data\tutorial-mod\recipe\chisel.json
 fa3c8f1ed703c13c1179184170b93b47c5eb1c28 data\tutorial-mod\recipe\six.json
 8867b4c88dd04986434ec2ca639802d37b85da7b data\tutorial-mod\advancement\recipes\misc\six_square.json
+fc4ce32fc06de4f4552c07607b6a82c86f9e5173 data\tutorial-mod\recipe\numberium_helmet.json
 f052651a86fcd30eaca31b59e863d8f47e342ed5 data\tutorial-mod\recipe\seven_from_smelting_six.json
+4e449c543f4e8d6fa207dfa93fa3b6c7f7b74a2e data\tutorial-mod\recipe\numberium_leggings.json
 1b94eec04f7ceed1445047effa211d8bba77bf0f data\tutorial-mod\recipe\seven_square.json
+bd7b78f039656f37781af8ffadb26228fda50f7d data\tutorial-mod\recipe\numberium_boots.json
 ae79130989b407c16e50953b5813b0d85dd44bc6 data\tutorial-mod\recipe\seven_from_blasting_seven.json
 12f265db1f96ccf7593b648e2f7b5971eef636e1 data\tutorial-mod\recipe\seven_from_smelting_seven.json
 72369e23cea658601407627e59099d12c65da3bf data\tutorial-mod\advancement\recipes\misc\chisel.json
@@ -27,6 +34,7 @@ ae79130989b407c16e50953b5813b0d85dd44bc6 data\tutorial-mod\recipe\seven_from_bla
 68b0bfb62785a4fcdc0556076366ac70b8e94cbc data\tutorial-mod\recipe\numberium_hoe.json
 2a27888f28508d42f73b53f74d2027853d320787 data\tutorial-mod\advancement\recipes\misc\seven_from_blasting_seven.json
 efa4ae282afd896d0f8504ab5a34669c3db0a5ff data\tutorial-mod\advancement\recipes\misc\numberium_sword.json
+6532b3512a1e613a563a73693661de45303b364e data\tutorial-mod\advancement\recipes\misc\numberium_chestplate.json
 e84345a4531d97a1e31f8ec31c74f0eaaef82ad1 data\tutorial-mod\recipe\seven.json
 7f0ad25681e04f098715ed5ca9de7d5c39ac3daf data\tutorial-mod\advancement\recipes\misc\numberium_axe.json
 180858a277f7669ee161260ca454bde5f673c508 data\tutorial-mod\advancement\recipes\misc\seven_from_smelting_six.json

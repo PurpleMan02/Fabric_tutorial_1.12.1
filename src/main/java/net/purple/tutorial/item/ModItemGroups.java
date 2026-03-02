@@ -30,6 +30,11 @@ public class ModItemGroups {
                         entries.add(ModItems.Numberium_Shovel);
                         entries.add(ModItems.Numberium_Hammer);
 
+                        entries.add(ModItems.Numberium_Helmet);
+                        entries.add(ModItems.Numberium_Chestplate);
+                        entries.add(ModItems.Numberium_leggings);
+                        entries.add(ModItems.Numberium_Boots);
+
                         entries.add(ModItems.Chisel);
                         entries.add(ModItems.Cauliflower);
                         entries.add(ModItems.Starlight_Ashes);

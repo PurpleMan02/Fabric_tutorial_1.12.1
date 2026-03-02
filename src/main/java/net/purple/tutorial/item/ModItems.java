@@ -44,6 +44,22 @@ public static final Item Numberium_Hammer = registerItem("numberium_hammer",
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
     }
 
+    public static final Item Numberium_Helmet = registerItem("numberium_helmet",
+            new ArmorItem(ModArmorMaterial.NUMBERIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item Numberium_Chestplate = registerItem("numberium_chestplate",
+            new ArmorItem(ModArmorMaterial.NUMBERIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item Numberium_leggings = registerItem("numberium_leggings",
+            new ArmorItem(ModArmorMaterial.NUMBERIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item Numberium_Boots = registerItem("numberium_boots",
+            new ArmorItem(ModArmorMaterial.NUMBERIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
     public static void RegisterModItems () {
         TutorialMod.LOGGER.info("Registering mod items for " + TutorialMod.MOD_ID);
 

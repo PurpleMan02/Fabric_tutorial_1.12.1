@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.purple.tutorial.Component.ModDataComponents;
 import net.purple.tutorial.block.ModBlocks;
+import net.purple.tutorial.item.ModArmorMaterial;
 import net.purple.tutorial.item.ModItemGroups;
 import net.purple.tutorial.item.ModItems;
 import net.purple.tutorial.util.hammerUsageEvent;

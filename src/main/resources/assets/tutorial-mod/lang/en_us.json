@@ -14,6 +14,11 @@
   "item.tutorial-mod.numberium_hoe": "Numberium Hoe",
   "item.tutorial-mod.numberium_hammer": "Numberium Hammer",
 
+  "item.tutorial-mod.numberium_helmet": "Numberium Helmet",
+  "item.tutorial-mod.numberium_chestplate": "Numberium Chestplate",
+  "item.tutorial-mod.numberium_leggings": "Numberium Leggings",
+  "item.tutorial-mod.numberium_boots": "Numberium Boots",
+
   "block.tutorial-mod.six_square": "Six Squared",
   "block.tutorial-mod.seven_square": "Seven Squared",
   "block.tutorial-mod.number_ore": "Numbers Ore",

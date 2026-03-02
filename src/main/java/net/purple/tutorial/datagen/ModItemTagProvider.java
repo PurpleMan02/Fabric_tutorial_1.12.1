@@ -29,5 +29,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.Numberium_Shovel);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.Numberium_Hoe);
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.Numberium_Helmet)
+                .add(ModItems.Numberium_Chestplate)
+                .add(ModItems.Numberium_leggings)
+                .add(ModItems.Numberium_Boots);
     }
 }

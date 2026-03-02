@@ -3,6 +3,7 @@ package net.purple.tutorial.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
 import net.purple.tutorial.block.ModBlocks;
 import net.purple.tutorial.block.custom.PinkGarnetLampBlock;
@@ -54,5 +55,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.Numberium_Shovel, Models.HANDHELD);
         itemModelGenerator.register(ModItems.Numberium_Pickaxe, Models.HANDHELD);
         itemModelGenerator.register(ModItems.Numberium_Hammer, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Numberium_Helmet));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Numberium_Chestplate));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Numberium_leggings));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.Numberium_Boots));
     }
 }

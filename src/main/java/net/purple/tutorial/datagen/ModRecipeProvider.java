@@ -103,6 +103,38 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
                 .offerTo(exporter);
 
+  ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Helmet)
+                .pattern("NNN")
+                .pattern("N N")
+                .pattern("   ")
+                .input('N', ModItems.Numberium)
+                .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
+                .offerTo(exporter);
+
+  ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Chestplate)
+                .pattern("N N")
+                .pattern("NNN")
+                .pattern("NNN")
+                .input('N', ModItems.Numberium)
+                .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
+                .offerTo(exporter);
+
+  ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_leggings)
+                .pattern("NNN")
+                .pattern("N N")
+                .pattern("N N")
+                .input('N', ModItems.Numberium)
+                .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
+                .offerTo(exporter);
+
+  ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.Numberium_Boots)
+                .pattern("   ")
+                .pattern("N N")
+                .pattern("N N")
+                .input('N', ModItems.Numberium)
+                .criterion(hasItem(ModItems.Numberium), conditionsFromItem(ModItems.Numberium))
+                .offerTo(exporter);
+
 
 
     }
